@@ -26,3 +26,10 @@ $ docker rmi -f $(docker images -aq | paste -sd " " -)
 ```sh
 docker build -t joaovictorbarreto/rubywd .
 ```
+```sh
+docker login
+```
+```sh
+docker push joaovictorbarreto/rubywd
+```
+
