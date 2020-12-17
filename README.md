@@ -22,3 +22,7 @@ $ docker rm -f $(docker ps -aq | paste -sd " " -)
 ```sh
 $ docker rmi -f $(docker images -aq | paste -sd " " -)
 ```
+### Criar imagem e subir no docker hub
+```sh
+docker build -t joaovictorbarreto/rubywd
+```
