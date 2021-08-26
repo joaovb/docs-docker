@@ -8,6 +8,15 @@ $ docker stop $(docker ps -a -q)
 $ docker rm $(docker ps -a -q)
 ```
 
+### Construir e executar imagem
+```sh
+$ docker-compose up
+```
+### Construir e executar imagem em segundo plano
+```sh
+$ docker-compose up -d
+```
+
 ### Parar todos os containers em execução
 ```sh
 $ docker stop $(docker ps -q | paste -sd " " -)
