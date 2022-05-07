@@ -16,7 +16,10 @@ $ docker-compose up
 ```sh
 $ docker-compose up -d
 ```
-
+### Parar um container que esteja em execução
+```sh
+$ docker stop id-container
+```
 ### Parar todos os containers em execução
 ```sh
 $ docker stop $(docker ps -q | paste -sd " " -)
