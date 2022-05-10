@@ -25,6 +25,16 @@ $ docker stop id-container
 $ docker stop $(docker ps -q | paste -sd " " -)
 ```
 
+### Para remover um único container
+```sh
+$ docker container rm <container ID>
+```
+
+### Para deletar múltiplos containers
+```sh
+$ docker container rm <container ID> <container ID>
+```
+
 ### Parar e remover todos os containers
 ```sh
 $ docker rm -f $(docker ps -aq | paste -sd " " -)
