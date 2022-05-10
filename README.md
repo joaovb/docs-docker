@@ -55,3 +55,9 @@ docker login
 docker push joaovictorbarreto/rubywd
 ```
 
+### Executar um container em segundo plano
+```sh
+docker container run -d <container ID>
+```
+
+
