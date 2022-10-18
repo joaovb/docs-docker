@@ -44,6 +44,10 @@ $ docker rm -f $(docker ps -aq | paste -sd " " -)
 ```sh
 $ docker rmi -f $(docker images -aq | paste -sd " " -)
 ```
+### Remover uma imagem específica
+```sh
+$ docker rmi IMAGE_ID -f
+```
 ### Criar imagem e subir no docker hub
 ```sh
 docker build -t joaovictorbarreto/rubywd .
