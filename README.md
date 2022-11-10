@@ -64,6 +64,11 @@ docker push joaovictorbarreto/rubywd
 docker container run -d <container ID>
 ```
 
+### Start e Restart Docker
+```sh
+killall Docker && open /Applications/Docker.app
+```
+
 ### Comandos Docker
 [Comandos Docker](https://stack.desenvolvedor.expert/appendix/docker/comandos.html)
 
